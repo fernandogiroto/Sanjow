@@ -7,9 +7,9 @@ const MenuNavbar: NextPage = () => {
   return(
     <Container maxW='1200px'>
         <Flex minWidth='max-content' alignItems='center' gap='2' mt={2}>
-            <Link href="/"><Image src="/images/logo.png" alt="Vercel Logo" width={85} height={75}  /></Link>
+            <Image src="/images/logo.png" alt="Vercel Logo" width={85} height={75}  />
             <Spacer />
-            <Button colorScheme='teal' size='sm'>
+            <Button colorScheme='teal' size='sm' href="/users">
                 <Link href="/users"> View Users</Link>
             </Button>
         </Flex>

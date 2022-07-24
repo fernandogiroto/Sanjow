@@ -42,7 +42,7 @@ export default function TableUsers(props){
                     <Td><AvatarGroup spacing='1rem'><Avatar size='md' name='User Name' src={users.avatar} /></AvatarGroup></Td>
                     <Td>{users.name}</Td>
                     <Td>{users.email}</Td>
-                    <Td><Button colorScheme='teal' size='sm'><Link href="/users/user?id=1">View Profile</Link></Button></Td>
+                    <Td><Button colorScheme='teal' size='sm'><Link href={"/users/"+users.id}>View Profile</Link></Button></Td>
                   </Tr>
                 );
               })}
