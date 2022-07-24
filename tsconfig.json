@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/users/index.tsx", "components/TableUsers.tsx"  ],
   "exclude": [
     "node_modules"
   ]
